@@ -1,0 +1,116 @@
+<!-- 
+  HTML SPECIAL CHARACTER SHORTCUTS (Entities)
+  Format: &name; — these represent characters that can't be typed directly or have special meaning in HTML
+
+&larr; = ← (left arrow) — used as a visual "back" indicator on navigation links 
+
+&amp; = & (ampersand) — raw & is reserved in HTML so we write &amp; to display a literal & 
+&nbsp; = non-breaking space — adds extra space that won't collapse or wrap between elements
+&middot; = · (middle dot) — used as a visual separator between metadata items 
+<p><em>Seasons 1, 2 &amp; 3 &nbsp;&middot;&nbsp; <strong> Genre: </strong>Action, Crime, Vigilante</em></p>
+
+&ldquo; = " (opening curly quote) — the professional left double quotation mark 
+&rsquo; = ' (right curly apostrophe) — the proper typographic apostrophe, used in "Don't" 
+&rdquo; = " (closing curly quote) — the professional right double quotation mark 
+<p>&ldquo;Don&rsquo;t die. Get revenge. We&rsquo;re here to help.&rdquo;</p>
+
+&copy; = © (copyright symbol) — standard legal copyright mark -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top K-Drama Series</title>
+  </heads>
+  <body>
+
+    <header>
+      <h1>My Top Favourite K-Drama Series</h1>
+      <p>A personal collection of the best K-Drama series I have watched.</p>
+
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./pages/list.html">Series List</a></li>
+          <li><a href="./pages/about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+
+      <section>
+        <h2>Welcome</h2>
+        <p>
+          These are not just shows — they are the ones that kept me awake until 3am 
+          promising myself "just one more episode." Every pick here earns its place: 
+          gripping plots, unforgettable characters, and justice that the real world 
+          does not always deliver.
+        </p>
+        <p>
+          <a href="./pages/list.html">Browse the full series list &rarr;</a>
+        </p>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Featured Series</h2>
+
+        <article>
+          <h3><a href="./pages/taxi-driver.html">Taxi Driver (Seasons 1, 2 &amp; 3)</a></h3>
+          <img
+            src="./images/taxi-driver.jpg"
+            alt="Taxi Driver K-Drama poster — the Rainbow Taxi crew ready for their next revenge mission"
+            width="100%"
+          />
+          <p>Vigilante justice disguised as a taxi service — three seasons of revenge done right.</p>
+          <p> <strong>Years:</strong> 2021&ndash;2025</p>
+          <p><a href="./pages/taxi-driver.html">Read more &rarr;</a></p>
+        </article>
+
+        <hr />
+
+        <article>
+          <h3><a href="./pages/missing-other-side.html">Missing: The Other Side (Seasons 1 &amp; 2)</a></h3>
+          <img
+            src="./images/missing.jpg"
+            alt="Missing The Other Side K-Drama poster — spirits of the missing gathered in Duon Village"
+            width="100%"
+          />
+          <p>A supernatural village where the spirits of missing people wait to be found.</p>
+          <p><strong>Years:</strong> 2020&ndash;2023</p>
+          <p><a href="./pages/missing-other-side.html">Read more &rarr;</a></p>
+        </article>
+
+        <hr />
+
+        <article>
+          <!-- img: Displays an image. Self-closing — no content, just attributes:, alt: Description of the image for screen readers and when image fails to load,
+          width 100%: Makes the image stretch to fill its container width -->
+          <h3><a href="./pages/the-player.html">The Player (Seasons 1 &amp; 2)</a></h3>
+          <img
+            src="./images/player.jpg"
+            alt="The Player K-Drama poster — the four-person team of elite specialists"
+            width="100%"
+          />
+          <p>Elite scammers, hackers, fighters and drivers stealing dirty money from the corrupt.</p>
+          <p><strong>Years:</strong> 2018&ndash;2024</p>
+          <p><a href="./pages/the-player.html">Read more &rarr;</a></p>
+        </article>
+      </section>
+
+    </main>
+
+    <hr />
+
+    <footer>
+      <p>Built with HTML, genuine obsession, and too many late nights. &copy; 2026</p>
+    </footer>
+
+  </body>
+</html>
